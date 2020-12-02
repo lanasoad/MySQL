@@ -1,0 +1,38 @@
+Atividade 1
+
+Explique com suas palavras e cite exemplos utilizando no mínimo 2 linhas para cada alternativa.
+
+a. Select: comando para consultar uma tabela para saber suas informações. 
+Ex: select * from nome_tab (seleciona todos os dados da tabela informada);
+      select from nome_tab where nome = “ex%%” (seleciona apenas os dados de texto na coluna ‘nome’ da tabela que comecem com “ex”).
+
+b. Insert: comando para popular/inserir dados em uma tabela.
+Ex: insert into nome_tab (nome, ativo) values (“morango”, true) (insere os dados nas colunas chamadas ‘nome’ e ‘ativo’ apresentados em seguida com values).
+
+c. Update: comando para modificar dados na tabela.
+Ex: update nome_tab set nome = “modificado” where id = “12” (modifica o dado da coluna ‘nome’ e ‘id’ 12, especificamente).
+
+d. Delete: comando para deletar um dado na tabela.
+Ex: delete from nome_tab where = id = 12 (apaga o dado específico de ‘id’ 12).
+
+e. Create Table: comando para criar uma tabela dentro do banco de dados.
+Ex: create table nome_tab ( -- escopo ); (cria uma tabela e um nome para ela).
+
+f. Drop Table: comando para apagar uma tabela.
+Ex: drop table nome_tab; (deleta a tabela inteira informada do banco de dados).
+
+g. Alter Table: comando que altera (exclui, adiciona e modifica) uma tabela.
+Ex:  alter table nome_tab
+     drop column nome_col; (exclui uma coluna específica da tabela).
+
+
+Atividade 2
+
+Informe pelo menos 5 tipagens utilizadas no Mysql e diga a sua equivalência em Java (ex: (MySQL) varchar = (Java) String):
+
+a. inteiro = int
+b. bigint = long
+c. float = float
+d. double = double
+e. bit = byte
+
